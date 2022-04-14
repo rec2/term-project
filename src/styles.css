@@ -1,0 +1,17 @@
+.container{
+    height: 100vh;
+}
+
+.navbar, .nav-link {
+    color: white;
+}
+
+.landing {
+    background-image: url("../public/landingImage.jpg");
+    background-position: center; /* Center the image */
+    min-height: 500px;
+    margin-top: 5%;
+    color: white;
+    border-radius: 1%;
+
+}

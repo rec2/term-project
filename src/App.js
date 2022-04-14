@@ -1,11 +1,14 @@
-import './input.css';
+import './styles.css';
+import Login from './components/Login';
+import NavBar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1 class="text-blue-600 underline">
-        Hello world!
-      </h1>
+    <div className="container-fluid d-flex flex-column min-vh-100">
+      <NavBar/>
+      <Login/>
+      <Footer/>
     </div>
   );
 }
