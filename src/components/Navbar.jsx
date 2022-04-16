@@ -11,10 +11,10 @@ export default class Nav extends React.Component {
   
     render() {
       return (
-            <nav className="row justify-content-between navbar navbar-dark bg-dark">
+            <nav className="justify-content-between fixed-top navbar navbar-dark bg-dark">
                 <div className="col">
                     <a className="navbar-brand"  href="#">
-                        <img src="https://picsum.photos/50/50" alt="logo"/>
+                        
                     </a>
                 </div>
                 <div className="col d-flex flex-row-reverse">
